@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CE3A5E4C-BACD-48C1-A196-1424F6A23194}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelFramework.NLog", "ModelFramework.NLog\ModelFramework.NLog.csproj", "{908AB391-3C92-4934-A8F4-74C59E23340E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{908AB391-3C92-4934-A8F4-74C59E23340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908AB391-3C92-4934-A8F4-74C59E23340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908AB391-3C92-4934-A8F4-74C59E23340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908AB391-3C92-4934-A8F4-74C59E23340E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
